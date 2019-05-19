@@ -13,6 +13,9 @@
 		CC31F582229138FE005B3914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC31F581229138FE005B3914 /* Assets.xcassets */; };
 		CC31F585229138FE005B3914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC31F583229138FE005B3914 /* LaunchScreen.storyboard */; };
 		CC31F58D22913D8E005B3914 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31F58C22913D8E005B3914 /* UIResponder+Extension.swift */; };
+		CC31F591229144CE005B3914 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31F590229144CE005B3914 /* EventView.swift */; };
+		CC31F59322914580005B3914 /* EventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC31F59222914580005B3914 /* EventView.xib */; };
+		CC31F59522914600005B3914 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31F59422914600005B3914 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CC31F584229138FE005B3914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC31F586229138FE005B3914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC31F58C22913D8E005B3914 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		CC31F590229144CE005B3914 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		CC31F59222914580005B3914 /* EventView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventView.xib; sourceTree = "<group>"; };
+		CC31F59422914600005B3914 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		CC31F579229138FA005B3914 /* iOSLifeCycle */ = {
 			isa = PBXGroup;
 			children = (
+				CC31F58F229143FF005B3914 /* View */,
+				CC31F58E229143EF005B3914 /* Extension */,
 				CC31F57A229138FA005B3914 /* AppDelegate.swift */,
 				CC31F57C229138FA005B3914 /* ViewController.swift */,
-				CC31F58C22913D8E005B3914 /* UIResponder+Extension.swift */,
 				CC31F57E229138FA005B3914 /* Main.storyboard */,
 				CC31F581229138FE005B3914 /* Assets.xcassets */,
 				CC31F583229138FE005B3914 /* LaunchScreen.storyboard */,
 				CC31F586229138FE005B3914 /* Info.plist */,
 			);
 			path = iOSLifeCycle;
+			sourceTree = "<group>";
+		};
+		CC31F58E229143EF005B3914 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC31F58C22913D8E005B3914 /* UIResponder+Extension.swift */,
+				CC31F59422914600005B3914 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC31F58F229143FF005B3914 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC31F590229144CE005B3914 /* EventView.swift */,
+				CC31F59222914580005B3914 /* EventView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +153,7 @@
 				CC31F585229138FE005B3914 /* LaunchScreen.storyboard in Resources */,
 				CC31F582229138FE005B3914 /* Assets.xcassets in Resources */,
 				CC31F580229138FA005B3914 /* Main.storyboard in Resources */,
+				CC31F59322914580005B3914 /* EventView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +167,8 @@
 				CC31F57D229138FA005B3914 /* ViewController.swift in Sources */,
 				CC31F57B229138FA005B3914 /* AppDelegate.swift in Sources */,
 				CC31F58D22913D8E005B3914 /* UIResponder+Extension.swift in Sources */,
+				CC31F59522914600005B3914 /* UIView+Extension.swift in Sources */,
+				CC31F591229144CE005B3914 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
